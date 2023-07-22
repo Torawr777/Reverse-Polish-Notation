@@ -4,3 +4,9 @@ It can call its own functions within the Forth program(input) and utilize compar
 
 "forth.hs" -- Project implementation<br />
 All other files are test input files.<br />
+
+To run this program, type:
+
+
+"ghc -o forth forth.hs" -- Compiles<br />
+"./forth < test_file.4th" -- Use redirection to test the program on one of the input files.<br />
